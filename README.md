@@ -62,6 +62,10 @@ Feel Free To Customise and Play with Properties According to your Requirements, 
 * ```placeHolderLabel``` Place Holder Text Used in **All**
 * ```textRectForBounds``` Method to move the cursor of textfield
 
+## How to use them
+
+Check out the demo project to see the configuration options for each effect.
+
 **My Other Repositories**
 
 **MMPaper:**<br />
