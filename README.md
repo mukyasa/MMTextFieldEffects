@@ -25,22 +25,50 @@ Currently it features the following effects from the article:
 
 ####Screenshots
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/ichiro.gif)
+##Ichiro
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/ichiro.gif)<br />
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/juro.gif)
+##Juro
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/juro.gif)<br />
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/kuro.gif)
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/kuro.gif)<br />
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Minoru.gif)
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Minoru.gif)<br />
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nariko.gif)
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nariko.gif)<br />
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Yoshiko.gif)
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Yoshiko.gif)<br />
 
-![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nao.gif)
+![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nao.gif)<br />
 
 
 #### How to Use
 Just subclass your TextField to respective class.
 
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Screen Shot 2015-07-24 at 3.38.41 pm.png)
+
+####Note
+* Default TextField Height Used Here is ```80```
+Feel Free To Customise and Play with Properties According to your Requirements, Following are properties used for specific purpose
+* ```borderTextField``` For Outer Frame Used in **Ichiro** , **Juro** , **Minoru** , **Nariko** and **Yoshiko**
+* ```contentTextfield``` For Inner Frame Used in **Ichiro** and **Nariko**
+* ```leftLayer``` For Outer Layer Used In **Kuro** and **Nao**
+* ```rightLayer``` For Outer Layer Used In **Kuro**
+* ```placeHolderLabel``` Place Holder Text Used in **All**
+* ```textRectForBounds``` Method to move the cursor of textfield
+
+**My Other Repositories**
+
+**MMPaper:**<br />
+https://github.com/mukyasa/MMPaper<br />
+
+**MMCamScanner:**<br />
+https://github.com/mukyasa/MMCamScanner<br />
+
+**MMPaperPanFlip:**<br /> 
+https://github.com/mukyasa/MMPaperPanFlip<br />
+
+**MMTransitionEffect:**<br />
+https://github.com/mukyasa/MMTransitionEffect<br />
+
+
