@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5555CA9E1B5F804900603699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CA9D1B5F804900603699 /* main.m */; };
+		5555CAA11B5F804900603699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAA01B5F804900603699 /* AppDelegate.m */; };
+		5555CAA41B5F804900603699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAA31B5F804900603699 /* ViewController.m */; };
+		5555CAA71B5F804900603699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5555CAA51B5F804900603699 /* Main.storyboard */; };
+		5555CAA91B5F804900603699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5555CAA81B5F804900603699 /* Images.xcassets */; };
+		5555CAAC1B5F804900603699 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5555CAAA1B5F804900603699 /* LaunchScreen.xib */; };
+		5555CAB81B5F804900603699 /* MMTextFieldEffectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAB71B5F804900603699 /* MMTextFieldEffectsTests.m */; };
+		5555CACD1B5F80A400603699 /* IchiroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC21B5F80A400603699 /* IchiroTextField.m */; };
+		5555CACE1B5F80A400603699 /* JuroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC41B5F80A400603699 /* JuroTextField.m */; };
+		5555CACF1B5F80A400603699 /* KuroTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC61B5F80A400603699 /* KuroTextField.m */; };
+		5555CAD01B5F80A400603699 /* MinoruTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAC81B5F80A400603699 /* MinoruTextField.m */; };
+		5555CAD11B5F80A400603699 /* NarikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CACA1B5F80A400603699 /* NarikoTextField.m */; };
+		5555CAD21B5F80A400603699 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */; };
+		5555CAD61B5F82B100603699 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAD51B5F82B100603699 /* TableViewController.m */; };
+		55A3D5E01B62312F004FFC20 /* BetaNaoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */; };
+		55A3D5E11B62312F004FFC20 /* YoshikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */; };
+		55A3D5EE1B624707004FFC20 /* ichiro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E61B624707004FFC20 /* ichiro.gif */; };
+		55A3D5EF1B624707004FFC20 /* juro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E71B624707004FFC20 /* juro.gif */; };
+		55A3D5F01B624707004FFC20 /* kuro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E81B624707004FFC20 /* kuro.gif */; };
+		55A3D5F11B624707004FFC20 /* Minoru.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E91B624707004FFC20 /* Minoru.gif */; };
+		55A3D5F21B624707004FFC20 /* Nao.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EA1B624707004FFC20 /* Nao.gif */; };
+		55A3D5F31B624707004FFC20 /* Nariko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EB1B624707004FFC20 /* Nariko.gif */; };
+		55A3D5F41B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */; };
+		55A3D5F51B624707004FFC20 /* Yoshiko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5ED1B624707004FFC20 /* Yoshiko.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5555CAB21B5F804900603699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5555CA901B5F804900603699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5555CA971B5F804900603699;
+			remoteInfo = MMTextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5555CA981B5F804900603699 /* MMTextFieldEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMTextFieldEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5555CA9C1B5F804900603699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5555CA9D1B5F804900603699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5555CA9F1B5F804900603699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5555CAA01B5F804900603699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5555CAA21B5F804900603699 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5555CAA31B5F804900603699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5555CAA61B5F804900603699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5555CAA81B5F804900603699 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5555CAAB1B5F804900603699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5555CAB11B5F804900603699 /* MMTextFieldEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMTextFieldEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5555CAB61B5F804900603699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5555CAB71B5F804900603699 /* MMTextFieldEffectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTextFieldEffectsTests.m; sourceTree = "<group>"; };
+		5555CAC11B5F80A400603699 /* IchiroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IchiroTextField.h; sourceTree = "<group>"; };
+		5555CAC21B5F80A400603699 /* IchiroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IchiroTextField.m; sourceTree = "<group>"; };
+		5555CAC31B5F80A400603699 /* JuroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuroTextField.h; sourceTree = "<group>"; };
+		5555CAC41B5F80A400603699 /* JuroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuroTextField.m; sourceTree = "<group>"; };
+		5555CAC51B5F80A400603699 /* KuroTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuroTextField.h; sourceTree = "<group>"; };
+		5555CAC61B5F80A400603699 /* KuroTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KuroTextField.m; sourceTree = "<group>"; };
+		5555CAC71B5F80A400603699 /* MinoruTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinoruTextField.h; sourceTree = "<group>"; };
+		5555CAC81B5F80A400603699 /* MinoruTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinoruTextField.m; sourceTree = "<group>"; };
+		5555CAC91B5F80A400603699 /* NarikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NarikoTextField.h; sourceTree = "<group>"; };
+		5555CACA1B5F80A400603699 /* NarikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NarikoTextField.m; sourceTree = "<group>"; };
+		5555CACB1B5F80A400603699 /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+		5555CAD41B5F82B100603699 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5555CAD51B5F82B100603699 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		55A3D5DC1B62312F004FFC20 /* BetaNaoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaNaoTextField.h; sourceTree = "<group>"; };
+		55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetaNaoTextField.m; sourceTree = "<group>"; };
+		55A3D5DE1B62312F004FFC20 /* YoshikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoshikoTextField.h; sourceTree = "<group>"; };
+		55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoshikoTextField.m; sourceTree = "<group>"; };
+		55A3D5E61B624707004FFC20 /* ichiro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ichiro.gif; sourceTree = "<group>"; };
+		55A3D5E71B624707004FFC20 /* juro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = juro.gif; sourceTree = "<group>"; };
+		55A3D5E81B624707004FFC20 /* kuro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kuro.gif; sourceTree = "<group>"; };
+		55A3D5E91B624707004FFC20 /* Minoru.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Minoru.gif; sourceTree = "<group>"; };
+		55A3D5EA1B624707004FFC20 /* Nao.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nao.gif; sourceTree = "<group>"; };
+		55A3D5EB1B624707004FFC20 /* Nariko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nariko.gif; sourceTree = "<group>"; };
+		55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-07-24 at 3.38.41 pm.png"; sourceTree = "<group>"; };
+		55A3D5ED1B624707004FFC20 /* Yoshiko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Yoshiko.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5555CA951B5F804900603699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5555CAAE1B5F804900603699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5555CA8F1B5F804900603699 = {
+			isa = PBXGroup;
+			children = (
+				5555CA9A1B5F804900603699 /* MMTextFieldEffects */,
+				5555CAB41B5F804900603699 /* MMTextFieldEffectsTests */,
+				5555CA991B5F804900603699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5555CA991B5F804900603699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5555CA981B5F804900603699 /* MMTextFieldEffects.app */,
+				5555CAB11B5F804900603699 /* MMTextFieldEffectsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5555CA9A1B5F804900603699 /* MMTextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5E51B624707004FFC20 /* textfields_images */,
+				5555CAD31B5F80B300603699 /* TextFieldEffects */,
+				5555CA9F1B5F804900603699 /* AppDelegate.h */,
+				5555CAA01B5F804900603699 /* AppDelegate.m */,
+				5555CAA21B5F804900603699 /* ViewController.h */,
+				5555CAA31B5F804900603699 /* ViewController.m */,
+				5555CAA51B5F804900603699 /* Main.storyboard */,
+				5555CAA81B5F804900603699 /* Images.xcassets */,
+				5555CAAA1B5F804900603699 /* LaunchScreen.xib */,
+				5555CA9B1B5F804900603699 /* Supporting Files */,
+				5555CAD41B5F82B100603699 /* TableViewController.h */,
+				5555CAD51B5F82B100603699 /* TableViewController.m */,
+			);
+			path = MMTextFieldEffects;
+			sourceTree = "<group>";
+		};
+		5555CA9B1B5F804900603699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5555CA9C1B5F804900603699 /* Info.plist */,
+				5555CA9D1B5F804900603699 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5555CAB41B5F804900603699 /* MMTextFieldEffectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5555CAB71B5F804900603699 /* MMTextFieldEffectsTests.m */,
+				5555CAB51B5F804900603699 /* Supporting Files */,
+			);
+			path = MMTextFieldEffectsTests;
+			sourceTree = "<group>";
+		};
+		5555CAB51B5F804900603699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5555CAB61B5F804900603699 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5555CAD31B5F80B300603699 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5E31B62313F004FFC20 /* Nao(Beta) */,
+				55A3D5E21B623134004FFC20 /* Yoshiko */,
+				5555CAD71B5FCE1200603699 /* Ichiro */,
+				5555CAD81B5FCE1A00603699 /* Juro */,
+				5555CAD91B5FCE2100603699 /* Kuro */,
+				5555CADA1B5FCE2900603699 /* Minoru */,
+				5555CADB1B5FCE3100603699 /* Nariko */,
+			);
+			name = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		5555CAD71B5FCE1200603699 /* Ichiro */ = {
+			isa = PBXGroup;
+			children = (
+				5555CAC11B5F80A400603699 /* IchiroTextField.h */,
+				5555CAC21B5F80A400603699 /* IchiroTextField.m */,
+			);
+			name = Ichiro;
+			sourceTree = "<group>";
+		};
+		5555CAD81B5FCE1A00603699 /* Juro */ = {
+			isa = PBXGroup;
+			children = (
+				5555CAC31B5F80A400603699 /* JuroTextField.h */,
+				5555CAC41B5F80A400603699 /* JuroTextField.m */,
+			);
+			name = Juro;
+			sourceTree = "<group>";
+		};
+		5555CAD91B5FCE2100603699 /* Kuro */ = {
+			isa = PBXGroup;
+			children = (
+				5555CAC51B5F80A400603699 /* KuroTextField.h */,
+				5555CAC61B5F80A400603699 /* KuroTextField.m */,
+			);
+			name = Kuro;
+			sourceTree = "<group>";
+		};
+		5555CADA1B5FCE2900603699 /* Minoru */ = {
+			isa = PBXGroup;
+			children = (
+				5555CACB1B5F80A400603699 /* PulsingHaloLayer.h */,
+				5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */,
+				5555CAC71B5F80A400603699 /* MinoruTextField.h */,
+				5555CAC81B5F80A400603699 /* MinoruTextField.m */,
+			);
+			name = Minoru;
+			sourceTree = "<group>";
+		};
+		5555CADB1B5FCE3100603699 /* Nariko */ = {
+			isa = PBXGroup;
+			children = (
+				5555CAC91B5F80A400603699 /* NarikoTextField.h */,
+				5555CACA1B5F80A400603699 /* NarikoTextField.m */,
+			);
+			name = Nariko;
+			sourceTree = "<group>";
+		};
+		55A3D5E21B623134004FFC20 /* Yoshiko */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5DE1B62312F004FFC20 /* YoshikoTextField.h */,
+				55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */,
+			);
+			name = Yoshiko;
+			sourceTree = "<group>";
+		};
+		55A3D5E31B62313F004FFC20 /* Nao(Beta) */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5DC1B62312F004FFC20 /* BetaNaoTextField.h */,
+				55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */,
+			);
+			name = "Nao(Beta)";
+			sourceTree = "<group>";
+		};
+		55A3D5E51B624707004FFC20 /* textfields_images */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5E61B624707004FFC20 /* ichiro.gif */,
+				55A3D5E71B624707004FFC20 /* juro.gif */,
+				55A3D5E81B624707004FFC20 /* kuro.gif */,
+				55A3D5E91B624707004FFC20 /* Minoru.gif */,
+				55A3D5EA1B624707004FFC20 /* Nao.gif */,
+				55A3D5EB1B624707004FFC20 /* Nariko.gif */,
+				55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */,
+				55A3D5ED1B624707004FFC20 /* Yoshiko.gif */,
+			);
+			path = textfields_images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5555CA971B5F804900603699 /* MMTextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5555CABB1B5F804900603699 /* Build configuration list for PBXNativeTarget "MMTextFieldEffects" */;
+			buildPhases = (
+				5555CA941B5F804900603699 /* Sources */,
+				5555CA951B5F804900603699 /* Frameworks */,
+				5555CA961B5F804900603699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMTextFieldEffects;
+			productName = MMTextFieldEffects;
+			productReference = 5555CA981B5F804900603699 /* MMTextFieldEffects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5555CAB01B5F804900603699 /* MMTextFieldEffectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5555CABE1B5F804900603699 /* Build configuration list for PBXNativeTarget "MMTextFieldEffectsTests" */;
+			buildPhases = (
+				5555CAAD1B5F804900603699 /* Sources */,
+				5555CAAE1B5F804900603699 /* Frameworks */,
+				5555CAAF1B5F804900603699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5555CAB31B5F804900603699 /* PBXTargetDependency */,
+			);
+			name = MMTextFieldEffectsTests;
+			productName = MMTextFieldEffectsTests;
+			productReference = 5555CAB11B5F804900603699 /* MMTextFieldEffectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5555CA901B5F804900603699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = madapps;
+				TargetAttributes = {
+					5555CA971B5F804900603699 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5555CAB01B5F804900603699 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5555CA971B5F804900603699;
+					};
+				};
+			};
+			buildConfigurationList = 5555CA931B5F804900603699 /* Build configuration list for PBXProject "MMTextFieldEffects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5555CA8F1B5F804900603699;
+			productRefGroup = 5555CA991B5F804900603699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5555CA971B5F804900603699 /* MMTextFieldEffects */,
+				5555CAB01B5F804900603699 /* MMTextFieldEffectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5555CA961B5F804900603699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A3D5EE1B624707004FFC20 /* ichiro.gif in Resources */,
+				55A3D5F51B624707004FFC20 /* Yoshiko.gif in Resources */,
+				55A3D5F21B624707004FFC20 /* Nao.gif in Resources */,
+				55A3D5F31B624707004FFC20 /* Nariko.gif in Resources */,
+				55A3D5F01B624707004FFC20 /* kuro.gif in Resources */,
+				5555CAA71B5F804900603699 /* Main.storyboard in Resources */,
+				55A3D5EF1B624707004FFC20 /* juro.gif in Resources */,
+				55A3D5F11B624707004FFC20 /* Minoru.gif in Resources */,
+				55A3D5F41B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png in Resources */,
+				5555CAAC1B5F804900603699 /* LaunchScreen.xib in Resources */,
+				5555CAA91B5F804900603699 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5555CAAF1B5F804900603699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5555CA941B5F804900603699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5555CAD01B5F80A400603699 /* MinoruTextField.m in Sources */,
+				5555CAD11B5F80A400603699 /* NarikoTextField.m in Sources */,
+				5555CAA41B5F804900603699 /* ViewController.m in Sources */,
+				5555CAD61B5F82B100603699 /* TableViewController.m in Sources */,
+				5555CAD21B5F80A400603699 /* PulsingHaloLayer.m in Sources */,
+				5555CAA11B5F804900603699 /* AppDelegate.m in Sources */,
+				5555CACF1B5F80A400603699 /* KuroTextField.m in Sources */,
+				5555CA9E1B5F804900603699 /* main.m in Sources */,
+				55A3D5E11B62312F004FFC20 /* YoshikoTextField.m in Sources */,
+				55A3D5E01B62312F004FFC20 /* BetaNaoTextField.m in Sources */,
+				5555CACD1B5F80A400603699 /* IchiroTextField.m in Sources */,
+				5555CACE1B5F80A400603699 /* JuroTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5555CAAD1B5F804900603699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5555CAB81B5F804900603699 /* MMTextFieldEffectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5555CAB31B5F804900603699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5555CA971B5F804900603699 /* MMTextFieldEffects */;
+			targetProxy = 5555CAB21B5F804900603699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5555CAA51B5F804900603699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5555CAA61B5F804900603699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5555CAAA1B5F804900603699 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5555CAAB1B5F804900603699 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5555CAB91B5F804900603699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5555CABA1B5F804900603699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5555CABC1B5F804900603699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMTextFieldEffects/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5555CABD1B5F804900603699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMTextFieldEffects/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5555CABF1B5F804900603699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMTextFieldEffectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMTextFieldEffects.app/MMTextFieldEffects";
+			};
+			name = Debug;
+		};
+		5555CAC01B5F804900603699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMTextFieldEffectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMTextFieldEffects.app/MMTextFieldEffects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5555CA931B5F804900603699 /* Build configuration list for PBXProject "MMTextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5555CAB91B5F804900603699 /* Debug */,
+				5555CABA1B5F804900603699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5555CABB1B5F804900603699 /* Build configuration list for PBXNativeTarget "MMTextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5555CABC1B5F804900603699 /* Debug */,
+				5555CABD1B5F804900603699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5555CABE1B5F804900603699 /* Build configuration list for PBXNativeTarget "MMTextFieldEffectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5555CABF1B5F804900603699 /* Debug */,
+				5555CAC01B5F804900603699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5555CA901B5F804900603699 /* Project object */;
+}

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="46y-Gd-qJF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-617" y="296"/>
+        </scene>
+        <!--TextFieldEffects-->
+        <scene sceneID="N4z-gQ-v2B">
+            <objects>
+                <tableViewController id="3Bp-Nk-qMv" customClass="TableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="110" sectionHeaderHeight="22" sectionFooterHeight="22" id="O4w-Yj-GHR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="AFF-oO-sLt">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="QCk-Km-AWe">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QCk-Km-AWe" id="pMy-vv-aPG">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="42A-3T-QPJ" customClass="IchiroTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="oVl-on-EWy"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ichiro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMc-PP-r4v">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="CLo-HP-2dj"/>
+                                                        <constraint firstAttribute="width" constant="141" id="aco-86-TRb"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="iMc-PP-r4v" firstAttribute="top" secondItem="pMy-vv-aPG" secondAttribute="topMargin" id="A7C-fH-HO4"/>
+                                                <constraint firstItem="42A-3T-QPJ" firstAttribute="leading" secondItem="pMy-vv-aPG" secondAttribute="leading" constant="16" id="E08-PB-Gm3"/>
+                                                <constraint firstAttribute="centerX" secondItem="iMc-PP-r4v" secondAttribute="centerX" id="O4p-7Z-olt"/>
+                                                <constraint firstAttribute="trailing" secondItem="42A-3T-QPJ" secondAttribute="trailing" constant="16" id="itu-RX-yJF"/>
+                                                <constraint firstAttribute="bottom" secondItem="42A-3T-QPJ" secondAttribute="bottom" constant="16" id="wQH-jG-JkI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.2782739729" green="0.5415198577" blue="0.85512994259999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="1UD-MD-Rir">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1UD-MD-Rir" id="e2G-Ng-vbM">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Ub-Ic-Y0A" customClass="JuroTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="9Ds-Xd-WwM"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhE-pP-cnM">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="A4t-8A-u5m"/>
+                                                        <constraint firstAttribute="width" constant="141" id="lW2-On-Flg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerX" secondItem="LhE-pP-cnM" secondAttribute="centerX" id="Beu-Ev-V0j"/>
+                                                <constraint firstItem="LhE-pP-cnM" firstAttribute="top" secondItem="e2G-Ng-vbM" secondAttribute="topMargin" id="Fxa-cj-jFy"/>
+                                                <constraint firstAttribute="trailing" secondItem="6Ub-Ic-Y0A" secondAttribute="trailing" constant="16" id="aqh-5z-uw8"/>
+                                                <constraint firstItem="6Ub-Ic-Y0A" firstAttribute="leading" secondItem="e2G-Ng-vbM" secondAttribute="leading" constant="16" id="cXa-GS-A1u"/>
+                                                <constraint firstAttribute="bottom" secondItem="6Ub-Ic-Y0A" secondAttribute="bottom" constant="16" id="ggA-sF-anP"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.91975203800000005" green="0.80136812199999996" blue="0.048006206709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="IU2-eQ-dlA">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IU2-eQ-dlA" id="Rnd-TM-Ehq">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="00R-zi-ta7" customClass="KuroTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="Q8m-de-kNU"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kuro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1VK-Mh-Wgo">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="7gL-cr-0Ap"/>
+                                                        <constraint firstAttribute="width" constant="141" id="9rd-qa-PBV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="1VK-Mh-Wgo" firstAttribute="top" secondItem="Rnd-TM-Ehq" secondAttribute="topMargin" id="CuF-0A-wYy"/>
+                                                <constraint firstAttribute="trailing" secondItem="00R-zi-ta7" secondAttribute="trailing" constant="16" id="fEt-mo-GIv"/>
+                                                <constraint firstAttribute="bottom" secondItem="00R-zi-ta7" secondAttribute="bottom" constant="16" id="i9t-X7-STa"/>
+                                                <constraint firstAttribute="centerX" secondItem="1VK-Mh-Wgo" secondAttribute="centerX" id="rua-Hg-XQD"/>
+                                                <constraint firstItem="00R-zi-ta7" firstAttribute="leading" secondItem="Rnd-TM-Ehq" secondAttribute="leading" constant="16" id="xvq-Cd-sGb"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.82423997959999995" green="0.13547249789999999" blue="0.13478925889999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="kvw-po-Xb6">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kvw-po-Xb6" id="gtE-S7-VW3">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minoru" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDu-Xq-SbV">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="141" id="vml-xk-fhj"/>
+                                                        <constraint firstAttribute="height" constant="40" id="yAY-BR-Xka"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6bh-Xd-jdR" customClass="MinoruTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="MmT-pY-bKJ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RDu-Xq-SbV" firstAttribute="top" secondItem="gtE-S7-VW3" secondAttribute="topMargin" id="7yX-CB-Fm9"/>
+                                                <constraint firstAttribute="bottom" secondItem="6bh-Xd-jdR" secondAttribute="bottom" constant="16" id="FdJ-M6-YBX"/>
+                                                <constraint firstItem="6bh-Xd-jdR" firstAttribute="leading" secondItem="gtE-S7-VW3" secondAttribute="leading" constant="16" id="Nap-c2-8mT"/>
+                                                <constraint firstAttribute="trailing" secondItem="6bh-Xd-jdR" secondAttribute="trailing" constant="16" id="SHR-fY-bl5"/>
+                                                <constraint firstAttribute="centerX" secondItem="RDu-Xq-SbV" secondAttribute="centerX" id="WF7-Td-8UL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="MwF-HS-491">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MwF-HS-491" id="UUH-1d-h3N">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ilS-Rz-wbf" customClass="NarikoTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="LQl-kD-yOu"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nariko" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ew-qP-LYr">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="141" id="Kv8-MK-hD4"/>
+                                                        <constraint firstAttribute="height" constant="40" id="Piq-Zc-kkD"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ilS-Rz-wbf" secondAttribute="trailing" constant="16" id="5fy-NV-Rng"/>
+                                                <constraint firstAttribute="bottom" secondItem="ilS-Rz-wbf" secondAttribute="bottom" constant="16" id="Hcp-1l-H5F"/>
+                                                <constraint firstItem="2ew-qP-LYr" firstAttribute="top" secondItem="UUH-1d-h3N" secondAttribute="topMargin" id="ag6-BU-vz3"/>
+                                                <constraint firstAttribute="centerX" secondItem="2ew-qP-LYr" secondAttribute="centerX" id="iWy-Vc-n1H"/>
+                                                <constraint firstItem="ilS-Rz-wbf" firstAttribute="leading" secondItem="UUH-1d-h3N" secondAttribute="leading" constant="16" id="zfc-FB-1hl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.2782739729" green="0.5415198577" blue="0.85512994259999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="O4W-Df-GmT">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O4W-Df-GmT" id="hnL-QU-3VS">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tem-FA-dGv" customClass="YoshikoTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="ZoK-jQ-WAQ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yoshiko" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdi-Ij-qC4">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="jjg-cR-elL"/>
+                                                        <constraint firstAttribute="width" constant="141" id="q2d-B8-vwC"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Fdi-Ij-qC4" firstAttribute="top" secondItem="hnL-QU-3VS" secondAttribute="topMargin" id="EFN-8h-E8U"/>
+                                                <constraint firstAttribute="trailing" secondItem="Tem-FA-dGv" secondAttribute="trailing" constant="16" id="NmJ-br-xX9"/>
+                                                <constraint firstAttribute="bottom" secondItem="Tem-FA-dGv" secondAttribute="bottom" constant="16" id="VTk-jr-tPE"/>
+                                                <constraint firstItem="Tem-FA-dGv" firstAttribute="leading" secondItem="hnL-QU-3VS" secondAttribute="leading" constant="16" id="W0o-Gh-uqZ"/>
+                                                <constraint firstAttribute="centerX" secondItem="Fdi-Ij-qC4" secondAttribute="centerX" id="t12-nE-mTu"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="Dpu-35-WZN">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dpu-35-WZN" id="wxc-uV-AwV">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lzC-0k-Szx" customClass="BetaNaoTextField">
+                                                    <rect key="frame" x="16" y="54" width="568" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="Uzn-aT-KmS"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="22"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                                                </textField>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nao(Beta)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8h-Zy-hqV">
+                                                    <rect key="frame" x="230" y="8" width="141" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="JSm-i3-52g"/>
+                                                        <constraint firstAttribute="width" constant="141" id="qtw-gb-oMC"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="lzC-0k-Szx" secondAttribute="trailing" constant="16" id="7Ya-HU-QcR"/>
+                                                <constraint firstItem="lzC-0k-Szx" firstAttribute="leading" secondItem="wxc-uV-AwV" secondAttribute="leading" constant="16" id="JMu-Kw-OeV"/>
+                                                <constraint firstAttribute="centerX" secondItem="u8h-Zy-hqV" secondAttribute="centerX" id="UaH-bb-MhH"/>
+                                                <constraint firstItem="u8h-Zy-hqV" firstAttribute="top" secondItem="wxc-uV-AwV" secondAttribute="topMargin" id="cBE-4X-j1a"/>
+                                                <constraint firstAttribute="bottom" secondItem="lzC-0k-Szx" secondAttribute="bottom" constant="16" id="tdK-WS-IDd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.14117647058823529" green="0.44313725490196076" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="3Bp-Nk-qMv" id="dba-6C-NT6"/>
+                            <outlet property="delegate" destination="3Bp-Nk-qMv" id="zgs-a1-gL5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="TextFieldEffects" id="qhC-7D-KpX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5SG-Mi-nit" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905" y="216"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dhy-lN-cAM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="46y-Gd-qJF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T0a-Gn-3cw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3Bp-Nk-qMv" kind="relationship" relationship="rootViewController" id="SE3-oP-QsO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Qa-iG-b8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="206" y="245"/>
+        </scene>
+    </scenes>
+</document>
