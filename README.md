@@ -37,6 +37,7 @@ Currently it features the following effects from the article:
 ##Minoru
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Minoru.gif)<br />
 
+##Nariko
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nariko.gif)<br />
 
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Yoshiko.gif)<br />
