@@ -43,6 +43,7 @@ Currently it features the following effects from the article:
 ##Yoshiko
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Yoshiko.gif)<br />
 
+##Nao
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nao.gif)<br />
 
 
