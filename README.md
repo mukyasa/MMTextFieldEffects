@@ -31,6 +31,7 @@ Currently it features the following effects from the article:
 ##Juro
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/juro.gif)<br />
 
+##Kuro
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/kuro.gif)<br />
 
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Minoru.gif)<br />
