@@ -21,6 +21,7 @@
 		5555CAD11B5F80A400603699 /* NarikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CACA1B5F80A400603699 /* NarikoTextField.m */; };
 		5555CAD21B5F80A400603699 /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */; };
 		5555CAD61B5F82B100603699 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5555CAD51B5F82B100603699 /* TableViewController.m */; };
+		558AF4001B74A43600743D4C /* Yoshiko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 558AF3FF1B74A43600743D4C /* Yoshiko.gif */; };
 		55A3D5E01B62312F004FFC20 /* BetaNaoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */; };
 		55A3D5E11B62312F004FFC20 /* YoshikoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5DF1B62312F004FFC20 /* YoshikoTextField.m */; };
 		55A3D5EE1B624707004FFC20 /* ichiro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5E61B624707004FFC20 /* ichiro.gif */; };
@@ -30,7 +31,6 @@
 		55A3D5F21B624707004FFC20 /* Nao.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EA1B624707004FFC20 /* Nao.gif */; };
 		55A3D5F31B624707004FFC20 /* Nariko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EB1B624707004FFC20 /* Nariko.gif */; };
 		55A3D5F41B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */; };
-		55A3D5F51B624707004FFC20 /* Yoshiko.gif in Resources */ = {isa = PBXBuildFile; fileRef = 55A3D5ED1B624707004FFC20 /* Yoshiko.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +71,7 @@
 		5555CACC1B5F80A400603699 /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
 		5555CAD41B5F82B100603699 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		5555CAD51B5F82B100603699 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		558AF3FF1B74A43600743D4C /* Yoshiko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Yoshiko.gif; sourceTree = "<group>"; };
 		55A3D5DC1B62312F004FFC20 /* BetaNaoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaNaoTextField.h; sourceTree = "<group>"; };
 		55A3D5DD1B62312F004FFC20 /* BetaNaoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetaNaoTextField.m; sourceTree = "<group>"; };
 		55A3D5DE1B62312F004FFC20 /* YoshikoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoshikoTextField.h; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		55A3D5EA1B624707004FFC20 /* Nao.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nao.gif; sourceTree = "<group>"; };
 		55A3D5EB1B624707004FFC20 /* Nariko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Nariko.gif; sourceTree = "<group>"; };
 		55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-07-24 at 3.38.41 pm.png"; sourceTree = "<group>"; };
-		55A3D5ED1B624707004FFC20 /* Yoshiko.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Yoshiko.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,12 +250,12 @@
 			children = (
 				55A3D5E61B624707004FFC20 /* ichiro.gif */,
 				55A3D5E71B624707004FFC20 /* juro.gif */,
+				558AF3FF1B74A43600743D4C /* Yoshiko.gif */,
 				55A3D5E81B624707004FFC20 /* kuro.gif */,
 				55A3D5E91B624707004FFC20 /* Minoru.gif */,
 				55A3D5EA1B624707004FFC20 /* Nao.gif */,
 				55A3D5EB1B624707004FFC20 /* Nariko.gif */,
 				55A3D5EC1B624707004FFC20 /* Screen Shot 2015-07-24 at 3.38.41 pm.png */,
-				55A3D5ED1B624707004FFC20 /* Yoshiko.gif */,
 			);
 			path = textfields_images;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A3D5EE1B624707004FFC20 /* ichiro.gif in Resources */,
-				55A3D5F51B624707004FFC20 /* Yoshiko.gif in Resources */,
+				558AF4001B74A43600743D4C /* Yoshiko.gif in Resources */,
 				55A3D5F21B624707004FFC20 /* Nao.gif in Resources */,
 				55A3D5F31B624707004FFC20 /* Nariko.gif in Resources */,
 				55A3D5F01B624707004FFC20 /* kuro.gif in Resources */,

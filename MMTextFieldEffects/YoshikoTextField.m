@@ -31,7 +31,7 @@
     borderTextField=[[CALayer alloc] init];
     borderTextField.frame = CGRectMake(0, 25, self.bounds.size.width, self.bounds.size.height-25);
     borderTextField.borderColor=[UIColor clearColor].CGColor;
-    borderTextField.borderWidth=2.5;
+    borderTextField.borderWidth=1.5;
     borderTextField.backgroundColor=[UIColor grayColor].CGColor;
     [self.layer addSublayer:borderTextField];
      [self addPlaceHolderLabel];
@@ -104,9 +104,9 @@
         
         self.placeHolderLabel.frame=CGRectMake(textFieldInset.x*2, 0, self.bounds.size.width-textFieldInset.x*4, 20);
         [self.placeHolderLabel setText:[@"Add Comment Here" uppercaseString]];
-        [self.placeHolderLabel setTextColor:[UIColor colorWithRed:0.223 green:0.580 blue:0.227 alpha:1]];
+        [self.placeHolderLabel setTextColor:[UIColor colorWithRed:1 green:0.4 blue:0 alpha:1]];
         borderTextField.backgroundColor=[UIColor whiteColor].CGColor;
-         borderTextField.borderColor=[UIColor colorWithRed:0.223 green:0.580 blue:0.227 alpha:1].CGColor;
+         borderTextField.borderColor=[UIColor colorWithRed:1 green:0.4 blue:0 alpha:1].CGColor;
 
         
     } completion:^(BOOL finished) {

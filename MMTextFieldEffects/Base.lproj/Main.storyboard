@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="-617" y="296"/>
         </scene>
-        <!--TextFieldEffects-->
+        <!--MMTextFieldEffects-->
         <scene sceneID="N4z-gQ-v2B">
             <objects>
                 <tableViewController id="3Bp-Nk-qMv" customClass="TableViewController" sceneMemberID="viewController">
@@ -281,7 +281,7 @@
                             <outlet property="delegate" destination="3Bp-Nk-qMv" id="zgs-a1-gL5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="TextFieldEffects" id="qhC-7D-KpX"/>
+                    <navigationItem key="navigationItem" title="MMTextFieldEffects" id="qhC-7D-KpX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5SG-Mi-nit" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
