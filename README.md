@@ -3,6 +3,8 @@
 
 ##### Inspired From this Website [Here](http://tympanus.net/Development/TextInputEffects/) and the Project made by  **raulriera** [Here](https://github.com/raulriera/TextFieldEffects).
 
+##Video Preview [Here](https://www.youtube.com/watch?v=k1Tn2nmoYxc)
+
 ##### So felt like doing some of remaining animated textfields,Tried to simulate the way it is in website 
 
 Currently it features the following effects from the article:
