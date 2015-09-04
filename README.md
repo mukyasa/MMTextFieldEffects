@@ -76,6 +76,9 @@ https://github.com/mukyasa/MMPaper<br />
 **MMCamScanner:**<br />
 https://github.com/mukyasa/MMCamScanner<br />
 
+**MMGooglePlayNewsStand:**<br />
+https://github.com/mukyasa/MMGooglePlayNewsStand
+
 **MMPaperPanFlip:**<br /> 
 https://github.com/mukyasa/MMPaperPanFlip<br />
 
