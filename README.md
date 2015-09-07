@@ -85,4 +85,13 @@ https://github.com/mukyasa/MMPaperPanFlip<br />
 **MMTransitionEffect:**<br />
 https://github.com/mukyasa/MMTransitionEffect<br />
 
+Contact Me
+==========
+Mukesh Mandora
+
+Contact: mandoramuku07@gmail.com
+
+Twitter: http://twitter.com/mandymuku
+
+LinkedIn: https://in.linkedin.com/in/mukeshmandora
 
