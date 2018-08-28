@@ -3,7 +3,7 @@
 
 ##### Inspired From this Website [Here](http://tympanus.net/Development/TextInputEffects/) and the Project made by  **raulriera** [Here](https://github.com/raulriera/TextFieldEffects).
 
-##Video Preview [Here](https://www.youtube.com/watch?v=k1Tn2nmoYxc)
+## Video Preview [Here](https://www.youtube.com/watch?v=k1Tn2nmoYxc)
 
 ##### So felt like doing some of remaining animated textfields,Tried to simulate the way it is in website 
 
@@ -17,35 +17,35 @@ Currently it features the following effects from the article:
 - [x] Nao
 
 
-####Credits
+#### Credits
 * PulsingHalo (https://github.com/shu223/PulsingHalo) for Minoru Effect
 
-####Improvement
+#### Improvement
 * Nao is still in testing phase,trying to crack the animation, Feel Free to crack and share the code
 
 
 
 ####Screenshots
 
-##Ichiro
+## Ichiro
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/ichiro.gif)<br />
 
-##Juro
+## Juro
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/juro.gif)<br />
 
-##Kuro
+## Kuro
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/kuro.gif)<br />
 
-##Minoru
+## Minoru
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Minoru.gif)<br />
 
-##Nariko
+## Nariko
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nariko.gif)<br />
 
-##Yoshiko
+## Yoshiko
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Yoshiko.gif)<br />
 
-##Nao
+## Nao
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Nao.gif)<br />
 
 
@@ -54,9 +54,9 @@ Just subclass your TextField to respective class.
 
 ![MMTextFieldEffects](https://github.com/mukyasa/MMTextFieldEffects/blob/master/MMTextFieldEffects/textfields_images/Screen Shot 2015-07-24 at 3.38.41 pm.png)
 
-####Note
+#### Note
 * Default TextField Height Used Here is ```80```
-Feel Free To Customise and Play with Properties According to your Requirements, Following are properties used for specific purpose
+Feel Free To Customise and Play with Properties According to your Requirements. Following are properties used for specific purpose
 * ```borderTextField``` For Outer Frame Used in **Ichiro** , **Juro** , **Minoru** , **Nariko** and **Yoshiko**
 * ```contentTextfield``` For Inner Frame Used in **Ichiro** and **Nariko**
 * ```leftLayer``` For Outer Layer Used In **Kuro** and **Nao**
@@ -96,4 +96,4 @@ Twitter: http://twitter.com/mandymuku
 LinkedIn: https://in.linkedin.com/in/mukeshmandora
 
 ## License
-MMTextFieldEffects is available under the Apache license. See the LICENSE file for more info.
+MMTextFieldEffects is available under the Apache license. See the `LICENSE` file for more info.
